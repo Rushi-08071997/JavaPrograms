@@ -1,4 +1,4 @@
-package JavaProgs;
+ package JavaProgs;
 
 public class CommonElements {
 

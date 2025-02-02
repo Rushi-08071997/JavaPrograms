@@ -1,4 +1,4 @@
-package JavaProgs;
+ package JavaProgs;
 
 import java.util.Arrays;
 
@@ -7,12 +7,12 @@ public class Anagrams {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String str1 = "OOT";
-		String str2 = "TOP";
+		String str1 = "yuoi";
+		String str2 = "iuoY";
 
 		char[] arr1 = str1.toLowerCase().toCharArray();
 		char[] arr2 = str2.toLowerCase().toCharArray();
-
+		
 		Arrays.sort(arr1);
 		Arrays.sort(arr2);
 
@@ -26,3 +26,4 @@ public class Anagrams {
 	}
 
 }
+     

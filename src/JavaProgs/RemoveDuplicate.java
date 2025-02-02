@@ -25,11 +25,14 @@ public class RemoveDuplicate {
 			}
 		}
 		java.util.Iterator<Integer> it = mp.keySet().iterator();
-
-		while (it.hasNext()) {
-
-			System.out.println(it.next());
+		
+		for(Map.Entry<Integer, Integer> newmp:mp.entrySet()){
+			
+			System.out.println(newmp.getKey());
+			
 		}
+
+		
 
 	}
 

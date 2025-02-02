@@ -1,3 +1,4 @@
+  
 package JavaProgs;
 
 public class Factorial {
@@ -9,6 +10,7 @@ public class Factorial {
 	}
 
 	public static int getfact(int num) {
+		
 		
 		int fact =1;
 		

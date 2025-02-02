@@ -19,6 +19,7 @@ public class CharCount {
 
 		for (char ch:arr) {
 			
+			
 			if(ch==val) {
 				
 				count++;

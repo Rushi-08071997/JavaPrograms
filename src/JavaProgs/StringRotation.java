@@ -1,3 +1,4 @@
+
 package JavaProgs;
 
 public class StringRotation {
@@ -6,9 +7,11 @@ public class StringRotation {
 		// TODO Auto-generated method stub
 		
 		String str1="abcd";
-		String str2="bda";
+		String str2="db";
 		
 		String Rotatedstring=str1+str1;
+		
+		System.out.println(Rotatedstring);
 		
 		if(Rotatedstring.contains(str2)) {
 			

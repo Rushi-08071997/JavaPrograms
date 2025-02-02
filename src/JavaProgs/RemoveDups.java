@@ -20,11 +20,14 @@ public class RemoveDups {
 		
 		for(int i=0;i<arr.length;i++) {
 			
-			if(!st.contains(arr[i])) {
+			//if(!st.contains(arr[i])) {
 				st.add(arr[i]);
-			}
+			//}
 		}
-
+		
+		st.si
+		
+		
 		java.util.Iterator<String> it=st.iterator();
 		
 		while(it.hasNext()) {

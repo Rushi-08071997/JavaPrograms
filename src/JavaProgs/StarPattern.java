@@ -11,13 +11,12 @@ public class StarPattern {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 
-		for (c = 0; c <= n; c++) {
-			int k = 1;
-			for (d = n; d <= c; d--) {
-
-				System.out.print("*" + " ");
+		for (c = 0; c < n; c++) {
+			for (d = n ; d >= c; d--) {
+ 
+				System.out.print("* ");
 			}
-			System.out.print(" ");
+			System.out.println();
 		}
 
 	}

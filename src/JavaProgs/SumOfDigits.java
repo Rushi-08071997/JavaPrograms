@@ -13,7 +13,7 @@ public class SumOfDigits {
 		
 		int sum=0;
 		int r;
-		
+ 		
 		while(num>0) {
 			r=num%10;
 			num=num/10;

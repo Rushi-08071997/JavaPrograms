@@ -18,6 +18,7 @@ public class OnetoHundread {
 			System.out.println(num + " ");
 			getnum(num + 1);
 		}
+		
 	}
 
 }

@@ -9,6 +9,10 @@ public class RotateArray {
 		
 		int k=2;
 		int j=0;
+		//tmp=9 9-8
+		//tmp=8
+		//arr[0]=8;
+		
 		
 		while(k>0) {
 			

@@ -6,6 +6,8 @@ public class RemoveAdjacent {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		System.out.println(getremovedups("abbccacacg"));
 
 	}
 
@@ -25,7 +27,7 @@ public class RemoveAdjacent {
 			}
 
 		}
-
+ 
 		for (char ch : st) {
 			sb.append(ch);
 		}

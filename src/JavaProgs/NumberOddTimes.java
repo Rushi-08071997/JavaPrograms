@@ -21,12 +21,21 @@ public class NumberOddTimes {
 				countmap.put(it, countmap.get(it) + 1);
 			} else {
 
-				countmap.put(it, 1);
+				countmap.put(it, 1); 
 			}
 
 		}
 		
-		Iterator<Integer> it = countmap.keySet().iterator();
+		for(Map.Entry<Integer, Integer> mp : countmap.entrySet()) {
+			
+			if(mp.getValue()%2!=0) {
+				
+				System.out.println(mp.getKey());
+			}
+			
+		}
+		
+		/*Iterator<Integer> it = countmap.keySet().iterator();
 
 		while (it.hasNext()) {
 			 
@@ -36,13 +45,13 @@ public class NumberOddTimes {
 			if(value%2!=0) {
 				
 				System.out.println(key);
-			}
+			}*/
 
 		}
 		
 
 	}
 
-}
+
 
 

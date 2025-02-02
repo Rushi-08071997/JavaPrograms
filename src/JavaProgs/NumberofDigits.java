@@ -1,3 +1,4 @@
+
 package JavaProgs;
 
 public class NumberofDigits {
@@ -13,8 +14,8 @@ public class NumberofDigits {
 			num = num / 10;
 			count++;
 		}
-		System.out.println(count
-				);
+		System.out.println(count);
+				
 	}
 
 }

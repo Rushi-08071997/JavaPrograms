@@ -28,7 +28,7 @@ public class SortArray {
 		for(int k=0;k<num.length;k++)
 		System.out.println(num[k]);
 		
-		System.out.println("smallest number in array is "+num[0]);
+		System.out.println("smallest number in array is "+num[num.length-1]);
 	}
 
 }

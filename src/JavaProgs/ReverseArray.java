@@ -1,4 +1,4 @@
-package JavaProgs;
+ package JavaProgs;
 
 public class ReverseArray {
 
@@ -10,7 +10,6 @@ public class ReverseArray {
 		int start=0;
 		int end=arr.length-1;
 		int temp;
-		
 		while(start<end) {
 			
 			temp=arr[start];
